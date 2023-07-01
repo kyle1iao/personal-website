@@ -22,8 +22,8 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Thumbnail</Meta>
-            <Link href="https://www.youtube.com/watch?v=6TAsmUSpbhM">
-              https://www.youtube.com/@Localish
+            <Link href="https://www.thisiswhyimbroke.com/famous-art-etch-a-sketch/">
+              https://www.thisiswhyimbroke.com/famous-art-etch-a-sketch/
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

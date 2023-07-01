@@ -23,7 +23,7 @@ const Work = () => {
           <ListItem>
             <Meta>Thumbnail</Meta>
             <Link href="https://www.pokebeach.com/2022/06/winners-announced-for-2022s-pokemon-tcg-illustration-contest">
-              https://www.pokebeach.com/2022/06/
+              https://www.pokebeach.com/2022/06/winners-announced-for-2022s-pokemon-tcg-illustration-contest
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
