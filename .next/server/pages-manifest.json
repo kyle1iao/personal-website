@@ -1,9 +1,0 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/works/etch-a-sketch": "pages/works/etch-a-sketch.js",
-  "/works": "pages/works.js",
-  "/works/pokemon-models": "pages/works/pokemon-models.js",
-  "/": "pages/index.js"
-}

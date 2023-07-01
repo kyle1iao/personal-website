@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"..\\\\components\\\\layouts\\\\main.js -> ../voxel-art.js\":{\"id\":\"..\\\\components\\\\layouts\\\\main.js -> ../voxel-art.js\",\"files\":[\"static/chunks/components_voxel-art_js.js\"]}}"
