@@ -19,7 +19,13 @@ const Main = ({ children }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Kyle Liao - Homepage</title>
-        <link rel="shortcut icon" href="/astronaut.ico" type="image/x-icon" />
+        {/* <link rel="shortcut icon" href="/astronaut.ico" type="image/x-icon" /> */}
+        <link
+          rel="icon"
+          sizes="any"
+          type="image/svg+xml"
+          href="/FaUserAstronaut.svg"
+        />
       </Head>
 
       <Navbar path={router.asPath} />
