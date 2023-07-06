@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 
 import thumbPokemon from '../public/images/pokemon-wallpaper.jpg'
 import thumbSketch from '../public/images/etchasketch.jpg'
+import thumbSpotify from '../public/images/spotify.jpg'
 
 const Works = () => {
   return (
@@ -22,6 +23,16 @@ const Works = () => {
               thumbnail={thumbPokemon}
             >
               Deep learning models for classification on Pokemon images
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="spotify-clone"
+              title="Full Stack Spotify Clone"
+              thumbnail={thumbSpotify}
+            >
+              Fully functional app for storing and playing your favorite songs
             </WorkGridItem>
           </Section>
 
