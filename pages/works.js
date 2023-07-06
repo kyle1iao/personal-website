@@ -6,6 +6,7 @@ import Layout from '../components/layouts/article'
 import thumbPokemon from '../public/images/pokemon-wallpaper.jpg'
 import thumbSketch from '../public/images/etchasketch.jpg'
 import thumbSpotify from '../public/images/spotify.jpg'
+import thumbJoWilder from '../public/images/jowilder.png'
 
 const Works = () => {
   return (
@@ -43,6 +44,16 @@ const Works = () => {
               thumbnail={thumbSketch}
             >
               Digital app for drawing 2D pixel images in browser
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="jo-wilder"
+              title="Jo Wilder Models"
+              thumbnail={thumbJoWilder}
+            >
+              Machine learning models for predicting video game performance
             </WorkGridItem>
           </Section>
         </SimpleGrid>
