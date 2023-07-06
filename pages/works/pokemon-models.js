@@ -11,7 +11,11 @@ const Work = () => {
         <Title>
           Pokemon Models <Badge>2023</Badge>
         </Title>
-        <P>Deep learning models for classification on Pokemon images.</P>
+        <P>
+          Deep learning models for classification on Pokemon images. Includes
+          two convolutional neural networks for predicting Pokemon type and name
+          from image. See website for full notebook.
+        </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
