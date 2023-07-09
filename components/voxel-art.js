@@ -12,7 +12,7 @@ const VoxelArt = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = '/bakestudent.glb'
+  const urlDogGLB = '/bakestudentver2.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
