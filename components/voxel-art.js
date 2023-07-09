@@ -12,7 +12,7 @@ const VoxelArt = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = '/treecut.glb'
+  const urlDogGLB = '/bakestudent.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
@@ -42,7 +42,7 @@ const VoxelArt = () => {
       refRenderer.current = renderer
       const scene = new THREE.Scene()
 
-      const target = new THREE.Vector3(-0.5, 1.2, 0)
+      const target = new THREE.Vector3(0, 0.8, 0)
       const initialCameraPosition = new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
         10,
@@ -51,7 +51,7 @@ const VoxelArt = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.0001 + 4.2
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -87,7 +87,7 @@ const VoxelArt = () => {
 
         if (frame <= 100) {
           const p = initialCameraPosition
-          const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
+          const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 21
 
           camera.position.y = 10
           camera.position.x =
