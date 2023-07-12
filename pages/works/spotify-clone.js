@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="Pokemon Models">
+    <Layout title="Spotify Clone">
       <Container>
         <Title>
           Full Stack Spotify Clone <Badge>2023</Badge>
