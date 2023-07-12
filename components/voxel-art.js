@@ -51,7 +51,7 @@ const VoxelArt = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.0001 + 4.2
+      const scale = scH * 0.0001 + 3.4
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,

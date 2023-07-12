@@ -15,7 +15,7 @@ export const ArtSpinner = () => (
 export const ArtContainer = forwardRef(({ children }, ref) => (
   <Box
     ref={ref}
-    className="voxel-dog"
+    className="voxel-art"
     m="auto"
     mt={['-20px', '-60px', '-120px']}
     mb={['-40px', '-140px', '-200px']}
