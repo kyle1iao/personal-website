@@ -29,7 +29,7 @@ const ProfileImage = chakra(Image, {
 const Page = () => {
   return (
     <Layout>
-      <Container>
+      <Container maxW="xl">
         <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
@@ -37,7 +37,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I am a student interested in data and applications of tech!
+          Hello! I am a student interested in DS, ML, and SWE!
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -83,13 +83,14 @@ const Page = () => {
           <Paragraph>
             I am currently a student at the University of Pennsylvania pursuing
             an undergraduate degree in computer science and biology as well as
-            an accelerated masters in data science. This summer, I am working as
-            a data science intern at AstraZeneca, developing NLP models.
+            an accelerated masters in data science. This past summer, I worked
+            as a machine learning intern at AstraZeneca, developing NLP models
+            and data-driven software.
           </Paragraph>
 
           <Box align="center" my={6}>
             <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
                 Portfolio
               </Button>
             </NextLink>
@@ -98,7 +99,7 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Biography
           </Heading>
           <BioSection>
             <BioYear>2003</BioYear>
@@ -127,24 +128,23 @@ const Page = () => {
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I ♥
+            Hobbies
           </Heading>
           <Paragraph>
-            Games, thrifting, volleyball/sports, data science, AI/ML, learning
-            and trying new things
+            Games, thrifting, volleyball/sports, learning and trying new things
           </Paragraph>
         </Section>
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            On the web
+            Links
           </Heading>
           <List>
             <ListItem>
               <Link href="https://github.com/kyle1iao" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="green"
                   leftIcon={<IoLogoGithub />}
                 >
                   @kyle1iao
@@ -156,7 +156,7 @@ const Page = () => {
               <Link href="https://www.instagram.com/kyle1iao/" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="green"
                   leftIcon={<IoLogoInstagram />}
                 >
                   @kyle1iao
@@ -171,7 +171,7 @@ const Page = () => {
               >
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="green"
                   leftIcon={<IoLogoLinkedin />}
                 >
                   @kyle-liao

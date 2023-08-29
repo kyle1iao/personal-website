@@ -8,7 +8,7 @@ const Footer = () => {
         href="https://www.craftz.dog/"
         target="_blank"
         rel="noopener noreferrer"
-        color="teal"
+        color="green"
       >
         craftzdog.
       </Link>
